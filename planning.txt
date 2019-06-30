@@ -1,3 +1,19 @@
 Personal Website
 
 [x] 6.29 setting up navigation, grid, filler text
+
+[x] 6.30 created hobbies page
+[x] 6.30 css improvements
+
+[]add gsu content
+[]add grade manager content
+[]add hobbies content
+    -running
+    -animation
+    -other
+
+[]desktop ui
+[]animate with after effects + bodymovin
+
+known issues:
+[] hobbies and contact in navigation overlapping
