@@ -1,0 +1,3 @@
+Personal Website
+
+[x] 6.29 setting up navigation, grid, filler text
