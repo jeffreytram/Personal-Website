@@ -5,15 +5,18 @@ Personal Website
 [x] 6.30 created hobbies page
 [x] 6.30 css improvements
 
+[x] 7.01 add grade manager content
+[x] 7.01 add hobbies content
+[x] 7.01 replaced gsu image
+
 []add gsu content
-[]add grade manager content
-[]add hobbies content
-    -running
-    -animation
-    -other
+[]link to live page
+[]link to github repo
 
 []desktop ui
+    -onscroll animations
 []animate with after effects + bodymovin
 
 known issues:
 [] hobbies and contact in navigation overlapping
+[] remove nav default blue link color
