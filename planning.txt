@@ -9,9 +9,13 @@ Personal Website
 [x] 7.01 add hobbies content
 [x] 7.01 replaced gsu image
 
-[]add gsu content
+[x] 7.02 added github icon
+[x] 7.02 added gsu content
+
 []link to live page
 []link to github repo
+[]attach resume
+[]add icons
 
 []desktop ui
     -onscroll animations
@@ -19,4 +23,3 @@ Personal Website
 
 known issues:
 [] hobbies and contact in navigation overlapping
-[] remove nav default blue link color

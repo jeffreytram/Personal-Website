@@ -1,44 +1,52 @@
-*{
+* {
     font-family: "Segoe UI";
     color: rgb(30, 30, 30);
 }
-.nav{
+
+.nav {
     overflow: hidden;
     position: fixed;
     width: 100%;
-}
-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li {
+.nav>li {
     float: right;
     width: 9%;
     padding: 1% 4%;
     background-color: rgb(30, 30, 30);
 }
-li a{
+
+.nav>li a {
     display: block;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
     color: #ffffff;
 }
-.intro{
+
+.intro {
     padding: 25% 2%;
     font-size: 25px;
 }
-img{
-    width:100%;
-    height:auto;
+
+.picture {
+    width: 98%;
+    height: auto;
     border: 5px solid rgb(30, 30, 30);
 }
-.contact{
+
+.contact {
     margin-bottom: 15%;
 }
-.start{
+
+.start {
     padding-top: 8%;
+}
+.githubLogo{
+    height: 32px;
+    width: auto;
 }
