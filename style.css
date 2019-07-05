@@ -2,51 +2,119 @@
     font-family: "Segoe UI";
     color: rgb(30, 30, 30);
 }
-
-.nav {
-    overflow: hidden;
-    position: fixed;
+.nav{
+    margin-top: 10px;
+    float: left;
     width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.nav ul {
+    clear: left;
+    float: left;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    position: relative;
+    left: 50%;
+    text-align: center;
 }
 
-.nav>li {
-    float: right;
-    width: 9%;
-    padding: 1% 4%;
+.nav>ul>li {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 50%;
     background-color: rgb(30, 30, 30);
 }
 
-.nav>li a {
+.nav>ul>li a {
     display: block;
-    text-align: center;
+    padding: 5px 30px;
     text-decoration: none;
     font-weight: bold;
     color: #ffffff;
 }
 
 .intro {
-    padding: 25% 2%;
+    padding: 25% 2% 2% 2%;
     font-size: 25px;
 }
 
-.picture {
+.picture, .homeImage {
     width: 98%;
     height: auto;
     border: 5px solid rgb(30, 30, 30);
 }
 
-.contact {
-    margin-bottom: 15%;
-}
-
 .start {
     padding-top: 8%;
 }
-.githubLogo{
+
+.githubLogo {
     height: 32px;
     width: auto;
+}
+
+input {
+    background-color: rgb(30, 30, 30);
+    border-color: rgb(30, 30, 30);
+    color: white;
+    border-width: 3px;
+    padding: 4px 20px;
+    text-decoration: none;
+    vertical-align: 9px;
+    font-weight: bold;
+}
+
+@media (min-width:712px) {
+    .nav{
+        margin-left: 2%;
+        width: 98%;
+    }
+    .nav ul {
+        left: 0%;
+    }
+    
+    .nav>ul>li {
+        right: 0%;
+    }
+    .nav>ul>li a:hover {
+        background-color: white;
+        color: rgb(30, 30, 30);
+
+    }
+    .nav>ul>li a {
+        padding: 100px 100px;
+        border: 3px solid rgb(30, 30, 30)
+    }
+    
+    .nav>ul>li a {
+        display: block;
+        padding: 5px 70px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .intro {
+        width: 62%;
+        height: 50%;
+        float: left;
+    }
+    .experience {
+        width: 30%;
+        float: right;
+        margin: 1% 2%;
+    }
+    input:hover {
+        background-color: white;
+        color: rgb(30, 30, 30);
+        border-width: 3px;
+        padding: 4px 20px;
+        text-decoration: none;
+        vertical-align: 9px;
+        font-weight: bold;
+    }
 }

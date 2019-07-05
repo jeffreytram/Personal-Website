@@ -10,15 +10,23 @@ Personal Website
 [x] 7.01 replaced gsu image
 
 [x] 7.02 added github icon
-[x] 7.02 added gsu content
 
+[x] 7.03 added gsu content
+[x] 7.03 replaced github logo
+
+[x] 7.05 home page desktop view
+[x] 7.05 added resume pdf
+[x] 7.05 changed nav bar positioning
+[x] 7.05 added hover css
+
+[] image sizing on desktop
+[] add content for contact
+    -email
+    -send message form
+[] update resume
 []link to live page
 []link to github repo
-[]attach resume
 []add icons
-
-[]desktop ui
-    -onscroll animations
 []animate with after effects + bodymovin
 
 known issues:
