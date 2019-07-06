@@ -19,14 +19,19 @@ Personal Website
 [x] 7.05 changed nav bar positioning
 [x] 7.05 added hover css
 
-[] image sizing on desktop
+[x] 7.06 adjusted image sizing on larger screens
+[x] 7.06 fixed top padding on other pages
+[x] 7.06 updated grade manager page content
+[x] 7.06 created and added nav bar icons
+
 [] add content for contact
     -email
     -send message form
+    -animation gallery?
+
 [] update resume
 []link to live page
 []link to github repo
-[]add icons
 []animate with after effects + bodymovin
 
 known issues:
