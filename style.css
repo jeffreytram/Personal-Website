@@ -4,13 +4,13 @@
 }
 
 .navLogo {
-    height: 16px;
+    height: calc(10px + .5vw);
     width: auto;
     vertical-align: -2px;
 }
 
 .nav {
-    margin-top: 10px;
+    margin-top: 5px;
     float: left;
     width: 100%;
     overflow: hidden;
@@ -40,25 +40,33 @@
 
 .nav>ul>li a {
     display: block;
-    padding: 5px 30px;
+    padding: 5px calc(5px + 2vw);
     text-decoration: none;
     font-weight: bold;
     color: #ffffff;
+    font-size: calc(10px + .5vw);
 }
 
 .intro {
     padding: 25% 2% 2% 2%;
-    font-size: 25px;
+    font-size: calc(10px + 1.2vw);
+}
+h3{
+    font-size: calc(10px + .7vw);
 }
 
 .picture, .homeImage {
     width: 98%;
     height: auto;
-    border: 5px solid rgb(30, 30, 30);
+    border: calc(2px + .2vw) solid rgb(30, 30, 30);
+}
+.article{
+    font-size: calc(12px + .5vw);
+    padding: 30px 10px;
 }
 
 .githubLogo {
-    height: 32px;
+    height: calc(10px + 1.2vw);
     width: auto;
 }
 
@@ -66,11 +74,12 @@ input {
     background-color: rgb(30, 30, 30);
     border-color: rgb(30, 30, 30);
     color: white;
-    border-width: 3px;
-    padding: 4px 20px;
+    border-width: calc(1px + .2vw);
+    padding: calc(0px + .3vw) calc(5px + .6vw);
     text-decoration: none;
-    vertical-align: 9px;
+    vertical-align: calc(1px + .6vw);
     font-weight: bold;
+    font-size: calc(5px + .6vw);
 }
 
 @media (min-width:712px) {
@@ -92,25 +101,21 @@ input {
         -webkit-filter: invert(100%);
     }
     .nav>ul>li a {
-        padding: 100px 100px;
-        border: 3px solid rgb(30, 30, 30)
+        border: calc(1px + .2vw) solid rgb(30, 30, 30);
+        padding: 5px calc(5px + 3vw);
+        font-size: calc(4px + .9vw);
     }
-    .nav>ul>li a {
-        display: block;
-        padding: 5px 70px;
-        text-decoration: none;
-        font-weight: bold;
-        color: #ffffff;
+    .navLogo {
+        height: calc(4px + .9vw);
     }
     .intro {
         width: 62%;
-        height: 50%;
         float: left;
     }
     .experience {
         width: 30%;
         float: right;
-        margin: 1% 2%;
+        margin: .5% 2%;
     }
     .picture {
         width: 60%;
@@ -118,15 +123,11 @@ input {
         border: 5px solid rgb(30, 30, 30);
     }
     .article {
+        font-size: calc(4px + .9vw);
         padding: 3% 25% 2% 10%;
     }
     input:hover {
         background-color: white;
         color: rgb(30, 30, 30);
-        border-width: 3px;
-        padding: 4px 20px;
-        text-decoration: none;
-        vertical-align: 9px;
-        font-weight: bold;
     }
 }

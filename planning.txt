@@ -23,6 +23,8 @@ Personal Website
 [x] 7.06 fixed top padding on other pages
 [x] 7.06 updated grade manager page content
 [x] 7.06 created and added nav bar icons
+[x] 7.06 added responsive text
+[x] 7.06 improved responsive nav bar
 
 [] add content for contact
     -email
@@ -33,6 +35,3 @@ Personal Website
 []link to live page
 []link to github repo
 []animate with after effects + bodymovin
-
-known issues:
-[] hobbies and contact in navigation overlapping
