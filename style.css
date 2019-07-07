@@ -51,7 +51,8 @@
     padding: 25% 2% 2% 2%;
     font-size: calc(10px + 1.2vw);
 }
-h3{
+
+h3 {
     font-size: calc(10px + .7vw);
 }
 
@@ -60,16 +61,19 @@ h3{
     height: auto;
     border: calc(2px + .2vw) solid rgb(30, 30, 30);
 }
-.article{
+
+.article {
     font-size: calc(12px + .5vw);
     padding: 30px 10px;
 }
-input, textarea{
-    width:100%;
+
+form>input, form>textarea {
+    width: 100%;
     margin-bottom: 20px;
     font-size: calc(8px + .7vw);
 }
-textarea{
+
+textarea {
     padding-bottom: 10%;
 }
 
@@ -78,7 +82,7 @@ textarea{
     width: auto;
 }
 
-.button, button {
+.button, button, input[type="submit"] {
     background-color: rgb(30, 30, 30);
     border-color: rgb(30, 30, 30);
     color: white;
@@ -134,7 +138,7 @@ textarea{
         font-size: calc(4px + .9vw);
         padding: 3% 25% 2% 10%;
     }
-    .button:hover, button:hover {
+    .button:hover, button:hover, input[type="submit"]:hover {
         background-color: white;
         color: rgb(30, 30, 30);
     }

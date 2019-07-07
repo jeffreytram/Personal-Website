@@ -28,7 +28,9 @@ Personal Website
 
 [x] 7.07 added live page and github repo link for work/projects
 [x] 7.07 added contact form
+[x] 7.07 updated contact form
 
+[]update content
 
 []animation gallery?
 
