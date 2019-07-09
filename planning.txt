@@ -30,9 +30,12 @@ Personal Website
 [x] 7.07 added contact form
 [x] 7.07 updated contact form
 
+[x] 7.08 updated resume
+[x] 7.08 added favicon
+
 []update content
-
 []animation gallery?
+[]animate with after effects + bodymovin
 
-[] update resume
-[] animate with after effects + bodymovin
+Bugs:
+[] gaps between image and border
