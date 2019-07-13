@@ -33,6 +33,8 @@ Personal Website
 [x] 7.08 updated resume
 [x] 7.08 added favicon
 
+[x] 7.13 testing bodymovin
+
 []update content
 []animation gallery?
 []animate with after effects + bodymovin
