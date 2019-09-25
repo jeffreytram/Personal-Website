@@ -35,9 +35,13 @@ Personal Website
 
 [x] 7.13 testing bodymovin
 
-[]update content
-[]animation gallery?
-[]animate with after effects + bodymovin
+[] update grade manager screenshot
+
+[]update resume
+[]animation gallery/showcase
+[]add all projects tab and page
+- contains all works
+[]work submission?
 
 Bugs:
 [] gaps between image and border
