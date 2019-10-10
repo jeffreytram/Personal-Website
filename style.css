@@ -94,6 +94,32 @@ textarea {
     font-size: calc(5px + .6vw);
 }
 
+/* works.html page css */
+
+.workContainer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 5% 0% 5% 0%;
+}
+
+.work {
+    width: 50%;
+    flex-basis: 49%;
+    border: 5px solid rgb(30, 30, 30)
+}
+
+.workImgDiv {
+    width: 100%;
+}
+
+.workImage {
+    width: 100%;
+    height: auto;
+}
+
 @media (min-width:712px) {
     .nav {
         margin-left: 2%;
@@ -142,4 +168,5 @@ textarea {
         background-color: white;
         color: rgb(30, 30, 30);
     }
+    
 }
