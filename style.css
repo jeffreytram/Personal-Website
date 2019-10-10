@@ -40,11 +40,21 @@
 
 .nav>ul>li a {
     display: block;
-    padding: 5px calc(5px + 2vw);
+    padding: 5px calc(5px + 3vw);
     text-decoration: none;
     font-weight: bold;
     color: #ffffff;
-    font-size: calc(10px + .5vw);
+    font-size: calc(4px + .9vw);
+    border: calc(1px + .2vw) solid rgb(30, 30, 30);
+}
+
+.active>a, .active>a:visited {
+    background-color: white;
+    color: rgb(30, 30, 30)
+}
+
+.active>a>.navLogo {
+    -webkit-filter: invert(100%);
 }
 
 .intro {
@@ -54,6 +64,10 @@
 
 h3 {
     font-size: calc(10px + .7vw);
+}
+
+h1 {
+    font-size: calc(10px + 1.4vw);
 }
 
 .picture, .homeImage {
@@ -94,21 +108,25 @@ textarea {
     font-size: calc(5px + .6vw);
 }
 
-/* works.html page css */
+/* works section css */
+
+.titleContainer {
+    width: 100%;
+    text-align: center;
+}
 
 .workContainer {
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding: 5% 0% 5% 0%;
 }
 
 .work {
-    width: 50%;
-    flex-basis: 49%;
-    border: 5px solid rgb(30, 30, 30)
+    width: 48%;
+    flex-basis: 48%;
+    border: calc(1px + .2vw) solid rgb(30, 30, 30);
 }
 
 .workImgDiv {
@@ -131,18 +149,6 @@ textarea {
     .nav>ul>li {
         right: 0%;
     }
-    .nav>ul>li a:hover {
-        background-color: white;
-        color: rgb(30, 30, 30);
-    }
-    .nav>ul>li a:hover>.navLogo {
-        -webkit-filter: invert(100%);
-    }
-    .nav>ul>li a {
-        border: calc(1px + .2vw) solid rgb(30, 30, 30);
-        padding: 5px calc(5px + 3vw);
-        font-size: calc(4px + .9vw);
-    }
     .navLogo {
         height: calc(4px + .9vw);
     }
@@ -164,9 +170,25 @@ textarea {
         font-size: calc(4px + .9vw);
         padding: 3% 25% 2% 10%;
     }
+    .workContainer {
+        width: 80%;
+    }
+    .work {
+        width: 50%;
+        flex-basis: 49%;
+    }
+}
+
+@media (hover: hover) {
     .button:hover, button:hover, input[type="submit"]:hover {
         background-color: white;
         color: rgb(30, 30, 30);
     }
-    
+    .nav>ul>li a:hover, .active>a, .active>a:visited {
+        background-color: white;
+        color: rgb(30, 30, 30)
+    }
+    .nav>ul>li a:hover>.navLogo, .active>a>.navLogo {
+        -webkit-filter: invert(100%);
+    }
 }

@@ -38,14 +38,23 @@ Personal Website
 [x] 9.25 updated resume, removed bodymovin test, updated planning
 
 [x] 10.8 added all works tab and page
-[x] 10.9 setup work layout
+
+[x] 10.9 setup work layout and added work banner/logos
+
+[x] 10.10 moved works page to home
+[x] 10.10 mobile view of works
+[x] 10.10 highlight active tab
+[x] 10.10 fixed sticky hover issue
+[x] 10.10 test website on multiple device
+[x] 10.10 update gm page
+[x] 10.10 added works logo
 
 [] create pages for each work
-[] active tab
-[] all works logo
-[] update grade manager screenshot
 
 []animation gallery/showcase
 
 Bugs:
 [] gaps between image and border
+[x] RESOLVED: going from home tab -> works tab (sticky hover issue)
+- works tab still highlighted until click
+- work around for mobile devices, issue remains in larger mobile device (ipad, rotated screen)
