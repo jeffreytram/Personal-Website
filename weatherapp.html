@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather App - Jeffrey Tram</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html"><img class="navLogo" src="Website-Files/home-logo.png"> Home</a></li>
+            <li><a href="index.html#works"><img class="navLogo" src="Website-Files/works-logo.png"> All Works</a></li>
+            <li><a href="hobbies.html"><img class="navLogo" src="Website-Files/hobbies-logo.png"> Hobbies</a></li>
+            <li><a href="contact.html"><img class="navLogo" src="Website-Files/contact-logo.png"> Contact</a></li>
+        </ul>
+    </div>
+    <div class="article">
+        <h2>Weather App</h2>
+        <p>
+            Weather App is a web application that allows users to view the current and past weather at their
+            location.<br /><br />
+            <strong>Languages used:</strong> Javascript, HTML, CSS<br /><br />
+            <a href="https://jeffreytram.github.io/Weather-App/" target="_blank"><button>Live Page</button></a>
+            <a href="https://github.com/jeffreytram/Weather-App" target="_blank"><button>GitHub
+                    Repository</button></a>
+        </p>
+        <img class="picture" src="weatherapp-images/8.19-WA.PNG">
+        <h4>Inspiration:</h4>
+        <p>
+            After getting a basic understanding of JavaScript, I wanted to learn how to use an API to expand the
+            possibilities of what I can create.
+        </p>
+        <h4>The Process:</h4>
+        <p>
+            After following a brief tutorial, I had a general idea of how to apply Dark Sky's API to create a functional
+            weather app. At the time, I had the idea of creating an application that provides important weather
+            information and data that a runner needs to know. <br /><br />
+            To start off my project, I first started planning how I wanted the UI to
+            look.
+        </p>
+        <img class="picture" src="weatherapp-images/8.15-WA-UI-Planning.jpg">
+        <p>
+            Then, I implemented the UI design and added the ability to see the weather at the current location.
+        </p>
+        <img class="picture" src="weatherapp-images/8.15-WA.PNG">
+        <p>
+            Using Dark Sky API's time machine, I added the ability to look up the past weather at the current location.
+            <br /> <br />
+            Now, I wanted to also display the user's address on the screen. With only latitude and longitude data, I
+            needed to find a way to convert that data to an address. Dark Sky API didn't have that ability, so I used
+            Nominatim API.
+        </p>
+        <img class="picture" src="weatherapp-images/8.19-WA.PNG">
+        <h4>The Future of Weather App</h4>
+        <p>
+            I want to eventually turn Weather App into an application that allows users to generate an outfit based on
+            various conditions such as weather, personal preference, and number of times worn. Overtime, the vision of
+            the project shifted from a runner's resouce app to a lifestyle app.
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

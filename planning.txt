@@ -49,7 +49,9 @@ Personal Website
 [x] 10.10 update gm page
 [x] 10.10 added works logo
 
-[] create pages for each work
+[x] 10.11 created weatherapp and website page
+
+[x] 10.14 finished writing weather app and website page content
 
 []animation gallery/showcase
 
