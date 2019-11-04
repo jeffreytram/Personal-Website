@@ -53,7 +53,8 @@ Personal Website
 
 [x] 10.14 finished writing weather app and website page content
 
-[]animation gallery/showcase
+[] Chicken traders write up
+[] animation gallery/showcase
 
 Bugs:
 [] gaps between image and border
