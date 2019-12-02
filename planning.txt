@@ -73,11 +73,9 @@ Personal Website
 - Scroll snap for all works
 - add chicken traders page
 
-[] Chicken traders write up
-[] animation gallery/showcase
+12.02
+- fixed white gaps between image and border
+- improved article responsiveness
 
-Bugs:
-[] gaps between image and border
-- SOLVED: going from home tab -> works tab (sticky hover issue)
-- works tab still highlighted until click
-- work around for mobile devices, issue remains in larger mobile device (ipad, rotated screen)
+
+[] animation gallery/showcase

@@ -71,7 +71,7 @@ h1 {
 }
 
 .picture, .homeImage {
-    width: 98%;
+    width: 100%;
     height: auto;
     outline: calc(2px + .2vw) solid rgb(30, 30, 30);
 }
@@ -149,7 +149,6 @@ textarea {
     scroll-snap-align: center;
     flex: none;
     width: 80%;
-    border: calc(1px + .2vw) solid rgb(30, 30, 30);
 }
 
 @media (min-width:712px) {
@@ -178,14 +177,20 @@ textarea {
     .picture {
         width: 60%;
         height: auto;
-        border: 5px solid rgb(30, 30, 30);
+        outline: 5px solid rgb(30, 30, 30);
     }
     .article {
-        font-size: calc(4px + .9vw);
-        padding: 3% 25% 2% 10%;
+        font-size: calc(14px + .3vw);
+        padding: 3% 10% 2% 5%;
     }
     .workContainer {
         width: 80%;
+    }
+}
+
+@media (min-width:1000px) {
+    .article {
+        padding: 3% 20% 2% 10%;
     }
 }
 
