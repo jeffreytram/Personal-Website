@@ -1,63 +1,83 @@
 Personal Website
 
-[x] 6.29 setting up navigation, grid, filler text
+6.29 
+- setting up navigation, grid, filler text
 
-[x] 6.30 created hobbies page
-[x] 6.30 css improvements
+6.30 
+- created hobbies page
+- css improvements
 
-[x] 7.01 add grade manager content
-[x] 7.01 add hobbies content
-[x] 7.01 replaced gsu image
+7.01 
+- add grade manager content
+- add hobbies content
+- replaced gsu image
 
-[x] 7.02 added github icon
+7.02 
+- added github icon
 
-[x] 7.03 added gsu content
-[x] 7.03 replaced github logo
+7.03 
+- added gsu content
+- replaced github logo
 
-[x] 7.05 home page desktop view
-[x] 7.05 added resume pdf
-[x] 7.05 changed nav bar positioning
-[x] 7.05 added hover css
+7.05 
+- home page desktop view
+- added resume pdf
+- changed nav bar positioning
+- added hover css
 
-[x] 7.06 adjusted image sizing on larger screens
-[x] 7.06 fixed top padding on other pages
-[x] 7.06 updated grade manager page content
-[x] 7.06 created and added nav bar icons
-[x] 7.06 added responsive text
-[x] 7.06 improved responsive nav bar
+7.06 
+- adjusted image sizing on larger screens
+- fixed top padding on other pages
+- updated grade manager page content
+- created and added nav bar icons
+- added responsive text
+- improved responsive nav bar
 
-[x] 7.07 added live page and github repo link for work/projects
-[x] 7.07 added contact form
-[x] 7.07 updated contact form
+7.07 
+- added live page and github repo link for work/projects
+- added contact form
+- updated contact form
 
-[x] 7.08 updated resume
-[x] 7.08 added favicon
+7.08 
+- updated resume
+- added favicon
 
-[x] 7.13 testing bodymovin
+7.13 
+- testing bodymovin
 
-[x] 9.25 updated resume, removed bodymovin test, updated planning
+9.25 
+- updated resume, removed bodymovin test, updated planning
 
-[x] 10.8 added all works tab and page
+10.8 
+- added all works tab and page
 
-[x] 10.9 setup work layout and added work banner/logos
+10.9 
+- setup work layout and added work banner/logos
 
-[x] 10.10 moved works page to home
-[x] 10.10 mobile view of works
-[x] 10.10 highlight active tab
-[x] 10.10 fixed sticky hover issue
-[x] 10.10 test website on multiple device
-[x] 10.10 update gm page
-[x] 10.10 added works logo
+10.10
+-  moved works page to home
+-  mobile view of works
+-  highlight active tab
+-  fixed sticky hover issue
+-  test website on multiple device
+-  update gm page
+-  added works logo
 
-[x] 10.11 created weatherapp and website page
+10.11
+-  created weatherapp and website page
 
-[x] 10.14 finished writing weather app and website page content
+10.14
+-  finished writing weather app and website page content
+
+12.01
+- Scroll snap for all works
+- add chicken traders page
 
 [] Chicken traders write up
 [] animation gallery/showcase
 
 Bugs:
 [] gaps between image and border
-[x] RESOLVED: going from home tab -> works tab (sticky hover issue)
+- SOLVED: going from home tab -> works tab (sticky hover issue)
 - works tab still highlighted until click
 - work around for mobile devices, issue remains in larger mobile device (ipad, rotated screen)

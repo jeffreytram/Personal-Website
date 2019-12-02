@@ -73,7 +73,7 @@ h1 {
 .picture, .homeImage {
     width: 98%;
     height: auto;
-    border: calc(2px + .2vw) solid rgb(30, 30, 30);
+    outline: calc(2px + .2vw) solid rgb(30, 30, 30);
 }
 
 .article {
@@ -123,12 +123,6 @@ textarea {
     justify-content: center;
 }
 
-.work {
-    width: 48%;
-    flex-basis: 48%;
-    border: calc(1px + .2vw) solid rgb(30, 30, 30);
-}
-
 .workImgDiv {
     width: 100%;
 }
@@ -136,6 +130,26 @@ textarea {
 .workImage {
     width: 100%;
     height: auto;
+}
+
+/* TEST CSS */
+
+.container {
+    margin: auto;
+    display: flex;
+    overflow: auto;
+    border: calc(1px + .2vw) solid rgb(30, 30, 30);
+    flex: none;
+    width: 90%;
+    flex-flow: row nowrap;
+    scroll-snap-type: x mandatory;
+}
+
+.container>div {
+    scroll-snap-align: center;
+    flex: none;
+    width: 80%;
+    border: calc(1px + .2vw) solid rgb(30, 30, 30);
 }
 
 @media (min-width:712px) {
@@ -172,10 +186,6 @@ textarea {
     }
     .workContainer {
         width: 80%;
-    }
-    .work {
-        width: 50%;
-        flex-basis: 49%;
     }
 }
 
