@@ -4,9 +4,8 @@
 }
 
 .navLogo {
-    height: calc(10px + .5vw);
-    width: auto;
-    vertical-align: -2px;
+    height: calc(10px + 1vw);
+    vertical-align: -3px;
 }
 
 .nav {
@@ -44,7 +43,7 @@
     text-decoration: none;
     font-weight: bold;
     color: #ffffff;
-    font-size: calc(4px + .9vw);
+    font-size: calc(6px + .9vw);
     border: calc(1px + .2vw) solid rgb(30, 30, 30);
 }
 
@@ -150,7 +149,7 @@ textarea {
 
 .container.work-carousel {
     margin: auto;
-    width: 60%;
+    width: 100%;
 }
 
 .container.work-carousel>div {
@@ -158,15 +157,14 @@ textarea {
 }
 
 .container.gallery {
-    height: calc(50px + 30vw);
 }
 
 .container.gallery>div {
+    
 }
 
-
 .galleryImage, canvas{
-    height: calc(50px + 30vw);
+    height: calc(50px + 20vw);
     width: auto;
 }
 
@@ -183,7 +181,7 @@ textarea {
         right: 0%;
     }
     .navLogo {
-        height: calc(4px + .9vw);
+        height: calc(8px + .9vw);
     }
     .intro {
         width: 62%;
@@ -205,6 +203,9 @@ textarea {
     }
     .workContainer {
         width: 80%;
+    }
+    .container.work-carousel {
+        width: 60%;
     }
 }
 

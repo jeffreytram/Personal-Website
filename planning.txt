@@ -82,6 +82,12 @@ Personal Website
 12.03
 - optimized gifs
 - optimized images
+- changed sizing of gallery and all works
+- added svg icon to all pages
+
+[] remove png icons if svg ok
+- issue with nav bar jumping upon page refresh due to svg loading?
+- no issue with hobbies 
 
 [] optizming drama addicts gifs
 [] optimizing  photos
