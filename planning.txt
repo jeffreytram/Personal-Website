@@ -76,6 +76,6 @@ Personal Website
 12.02
 - fixed white gaps between image and border
 - improved article responsiveness
+- added animation gallery/showcase
+- removed yozurina - file size too big
 
-
-[] animation gallery/showcase

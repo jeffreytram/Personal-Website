@@ -135,12 +135,10 @@ textarea {
 /* TEST CSS */
 
 .container {
-    margin: auto;
     display: flex;
     overflow: auto;
     border: calc(1px + .2vw) solid rgb(30, 30, 30);
     flex: none;
-    width: 90%;
     flex-flow: row nowrap;
     scroll-snap-type: x mandatory;
 }
@@ -148,8 +146,30 @@ textarea {
 .container>div {
     scroll-snap-align: center;
     flex: none;
+}
+
+.container.work-carousel {
+    margin: auto;
+    width: 60%;
+}
+
+.container.work-carousel>div {
     width: 80%;
 }
+
+.container.gallery {
+    height: calc(50px + 30vw);
+}
+
+.container.gallery>div {
+}
+
+
+.galleryImage, canvas{
+    height: calc(50px + 30vw);
+    width: auto;
+}
+
 
 @media (min-width:712px) {
     .nav {

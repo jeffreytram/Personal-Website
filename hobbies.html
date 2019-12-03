@@ -15,6 +15,7 @@
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
 </head>
 
 <body>
@@ -22,29 +23,68 @@
         <ul>
             <li><a href="index.html"><img class="navLogo" src="Website-Files/home-logo.png"> Home</a></li>
             <li><a href="index.html#works"><img class="navLogo" src="Website-Files/works-logo.png"> All Works</a></li>
-            <li class="active"><a href="hobbies.html"><img class="navLogo" src="Website-Files/hobbies-logo.png"> Hobbies</a></li>
+            <li class="active"><a href="hobbies.html"><img class="navLogo" src="Website-Files/hobbies-logo.png">
+                    Hobbies</a></li>
             <li><a href="contact.html"><img class="navLogo" src="Website-Files/contact-logo.png"> Contact</a></li>
         </ul>
     </div>
 
     <div class="article">
         <h2>Hobbies</h2>
-        <h4>Running:</h4>
+        <h4>Motion Graphics:</h4>
+        <p>
+            Every now and then, I make fun little animations. Some are just short snippets while others could be more
+            longer, planned out videos. <a href="https://www.youtube.com/channel/UC90xXXoDBTNd_-92vfF-HjA">Check them
+            out here!</a>
+        </p>
+        <div class="container gallery" dir="ltr">
+            <div><img id="da" class="galleryImage" src="hobbies-images/drama-addicts.gif">
+            </div>
+            <div><img id="yozurina" class="galleryImage" src="hobbies-images/yozurina-preview.gif"></div>
+            <div><img id="sayo1" class="galleryImage" src="hobbies-images/sayonara-preview.gif">
+            </div>
+            <div><img id="team" class="galleryImage" src="hobbies-images/team-one-preview.gif"></div>
+            <div><img id="buttons" class="galleryImage" src="hobbies-images/buttons-preview.gif"></div>
+        </div>
+        <h4>Activities:</h4>
         <div>
             <p>
-                I love waking up early to go out for a morning run at my local park. I ran my first Peachtree Road Race
-                this
-                year, and I look forward to running it again in the years to come!
+                If the activity gets me moving, chances are I'll like it! I enjoy playing racquetball, badminton, and a
+                bit of basketball. When its warmer outside, I love waking up early to go out for a morning run at my
+                local park or afternoon runs around campus. I ran my first Peachtree Road Race July 2019, and I look
+                forward to running it again in the years to come!
             </p>
             <img class="picture" src="hobbies-images/prr.png">
         </div>
-        <h4>Motion Graphics:</h4>
-        <p>
-            Every now and then, I make fun little animation videos on Youtube. <a
-                href="https://www.youtube.com/channel/UC90xXXoDBTNd_-92vfF-HjA">Check them out here!</a>
-        </p>
     </div>
-    <script src="script.js" async defer></script>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        new Freezeframe({
+            selector: '#da',
+            trigger: 'hover',
+            responsive: false
+        });
+        new Freezeframe({
+            selector: '#yozurina',
+            trigger: 'hover',
+            responsive: false
+        });
+        new Freezeframe({
+            selector: '#sayo1',
+            trigger: 'hover',
+            responsive: false
+        });
+        new Freezeframe({
+            selector: '#team',
+            trigger: 'hover',
+            responsive: false
+        });
+        new Freezeframe({
+            selector: '#buttons',
+            trigger: 'hover',
+            responsive: false
+        });
+    </script>
 </body>
 
 </html>
