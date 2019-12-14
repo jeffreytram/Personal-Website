@@ -85,6 +85,12 @@ Personal Website
 - changed sizing of gallery and all works
 - added svg icon to all pages
 
+12.12
+- updated chicken traders page content
+
+12.14
+- updated chicken traders page content and resume
+
 [] optizming drama addicts gifs
 [] optimizing  photos
 
