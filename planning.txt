@@ -91,6 +91,10 @@ Personal Website
 12.14
 - updated chicken traders page content and resume
 
+12.22
+- added border decoration
+- updated resume
+
 [] optizming drama addicts gifs
 [] optimizing  photos
 

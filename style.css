@@ -2,6 +2,10 @@
     font-family: "Segoe UI";
     color: rgb(30, 30, 30);
 }
+.home-body {
+    margin-left: 0;
+    margin-right: 0;
+}
 
 .navLogo {
     height: calc(10px + 1vw);
@@ -57,8 +61,12 @@
 }
 
 .intro {
-    padding: 25% 2% 2% 2%;
+    padding: 30% 2% 2% 2%;
     font-size: calc(10px + 1.2vw);
+}
+
+.experience {
+    margin: 10% 2%;
 }
 
 h3 {
@@ -109,17 +117,40 @@ textarea {
 
 /* works section css */
 
-.titleContainer {
+.centered {
     width: 100%;
     text-align: center;
+    color: white;
+}
+
+.workContainer::before, .workContainer::after {
+    position: absolute;
+    content: '';
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    padding-bottom: 13.6%;
+    z-index: -1;
+}
+.workContainer::before {
+    background: url("./Website-Files/border-top.png") no-repeat center bottom;
+    background-size: contain;
+    bottom: 100%;
+}
+.workContainer::after {
+    background: url("./Website-Files/border-bot.png") no-repeat center top;
+    background-size: contain;
+    top: 100%;
 }
 
 .workContainer {
-    width: 90%;
-    margin: auto;
+    position: relative;
+    width: 100%;
+    margin: 0;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    background-color: rgb(30, 30, 30);
 }
 
 .workImgDiv {
@@ -149,20 +180,12 @@ textarea {
 
 .container.work-carousel {
     margin: auto;
-    width: 100%;
+    width: 80%;
 }
 
 .container.work-carousel>div {
     width: 80%;
 }
-
-.container.gallery {
-}
-
-.container.gallery>div {
-    
-}
-
 .galleryImage, canvas{
     height: calc(50px + 20vw);
     width: auto;
@@ -184,6 +207,7 @@ textarea {
         height: calc(8px + .9vw);
     }
     .intro {
+        padding: 25% 2% 2% 2%;
         width: 62%;
         float: left;
     }
@@ -200,9 +224,6 @@ textarea {
     .article {
         font-size: calc(14px + .3vw);
         padding: 3% 10% 2% 5%;
-    }
-    .workContainer {
-        width: 80%;
     }
     .container.work-carousel {
         width: 60%;
