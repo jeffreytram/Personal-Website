@@ -97,6 +97,9 @@ Personal Website
 
 1.5
 - updated chicken traders page and resume
+- nav bar now in fixed position
+- updated page contents
+- slight css modifications
 
 [] optizming drama addicts gifs
 [] optimizing  photos

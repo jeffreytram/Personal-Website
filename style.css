@@ -17,7 +17,7 @@
     float: left;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    position: fixed;
 }
 
 .nav ul {
@@ -74,13 +74,25 @@ h3 {
 }
 
 h1 {
-    font-size: calc(10px + 1.4vw);
+    font-size: calc(10px + 2.2vw);
+}
+
+#home-projects-title {
+    font-size: calc(16px + .8vw);
+    text-align: center;
+    border-bottom: 2px solid rgb(30, 30, 30);
+}
+#home-projects-title-container {
+    display: inline-block;
 }
 
 .picture, .homeImage {
     width: 100%;
     height: auto;
     outline: calc(2px + .2vw) solid rgb(30, 30, 30);
+}
+.picture {
+    margin-bottom: 20px;
 }
 
 .article {
@@ -129,18 +141,19 @@ textarea {
     right: 0;
     left: 0;
     margin: 0 auto;
-    padding-bottom: 13.6%;
     z-index: -1;
 }
 .workContainer::before {
     background: url("./Website-Files/border-top.png") no-repeat center bottom;
     background-size: contain;
     bottom: 100%;
+    padding-bottom: 13.6%;
 }
 .workContainer::after {
     background: url("./Website-Files/border-bot.png") no-repeat center top;
     background-size: contain;
     top: 100%;
+    padding-bottom: 6.3%;
 }
 
 .workContainer {
@@ -214,7 +227,7 @@ textarea {
     .experience {
         width: 30%;
         float: right;
-        margin: .5% 2%;
+        margin: 0 2%;
     }
     .picture {
         width: 60%;
