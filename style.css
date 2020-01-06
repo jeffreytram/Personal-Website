@@ -82,9 +82,6 @@ h1 {
     text-align: center;
     border-bottom: 2px solid rgb(30, 30, 30);
 }
-#home-projects-title-container {
-    display: inline-block;
-}
 
 .picture, .homeImage {
     width: 100%;
