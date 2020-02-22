@@ -101,6 +101,9 @@ Personal Website
 - updated page contents
 - slight css modifications
 
+2.22.20
+- updated with music listening times project
+
 [] optizming drama addicts gifs
 [] optimizing  photos
 
