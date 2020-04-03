@@ -110,3 +110,4 @@ Personal Website
 4.2.20
 - updated resume
 - added UniDrive page
+- added Love Machine Learning Data Viz page
