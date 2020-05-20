@@ -114,3 +114,7 @@ Personal Website
 
 4.28.20
 - updated LML page
+- updated resume
+
+5.20.20
+- updated content
