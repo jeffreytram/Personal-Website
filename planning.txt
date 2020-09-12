@@ -118,3 +118,9 @@ Personal Website
 
 5.20.20
 - updated content
+
+6.7.2020
+- updated mlt content
+
+9.12.2020
+- updated resume
