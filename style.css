@@ -13,8 +13,9 @@
 }
 
 .nav {
+    display: flex;
+    justify-content: center;
     margin-top: 5px;
-    float: left;
     width: 100%;
     overflow: hidden;
     position: fixed;
@@ -26,19 +27,16 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: relative;
-    left: 50%;
     text-align: center;
+    background-color: rgb(30, 30, 30);
+    border-radius: 10px;
 }
 
 .nav>ul>li {
-    display: block;
+    display: inline;
     float: left;
     margin: 0;
     padding: 0;
-    position: relative;
-    right: 50%;
-    background-color: rgb(30, 30, 30);
 }
 
 .nav>ul>li a {
@@ -49,6 +47,7 @@
     color: #ffffff;
     font-size: calc(6px + .9vw);
     border: calc(1px + .2vw) solid rgb(30, 30, 30);
+    border-radius: 10px;
 }
 
 .active>a, .active>a:visited {
@@ -86,7 +85,8 @@ h1 {
 .picture, .homeImage {
     width: 100%;
     height: auto;
-    outline: calc(2px + .2vw) solid rgb(30, 30, 30);
+    border: calc(2px + .2vw) solid rgb(30, 30, 30);
+    border-radius: 10px;
 }
 .picture {
     margin-bottom: 20px;
@@ -117,6 +117,7 @@ textarea {
     border-color: rgb(30, 30, 30);
     color: white;
     border-width: calc(1px + .2vw);
+    border-radius: 10px;
     padding: calc(0px + .3vw) calc(5px + .6vw);
     text-decoration: none;
     vertical-align: calc(1px + .6vw);
@@ -178,6 +179,7 @@ textarea {
     display: flex;
     overflow: auto;
     border: calc(1px + .2vw) solid rgb(30, 30, 30);
+    border-radius: 10px;
     flex: none;
     flex-flow: row nowrap;
     scroll-snap-type: x mandatory;
@@ -202,8 +204,9 @@ textarea {
 }
 
 
-@media (min-width:712px) {
+@media (min-width:750px) {
     .nav {
+        display: block;
         margin-left: 2%;
         width: 98%;
     }
@@ -229,7 +232,7 @@ textarea {
     .picture {
         width: 60%;
         height: auto;
-        outline: 5px solid rgb(30, 30, 30);
+        border: 5px solid rgb(30, 30, 30);
     }
     .article {
         font-size: calc(14px + .3vw);
@@ -250,6 +253,7 @@ textarea {
     .button:hover, button:hover, input[type="submit"]:hover {
         background-color: white;
         color: rgb(30, 30, 30);
+        cursor: pointer;
     }
     .nav>ul>li a:hover, .active>a, .active>a:visited {
         background-color: white;
