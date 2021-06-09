@@ -14,11 +14,11 @@
 
 .nav {
     display: flex;
+    position: absolute;
     justify-content: center;
     margin-top: 5px;
     width: 100%;
     overflow: hidden;
-    position: fixed;
 }
 
 .nav ul {
