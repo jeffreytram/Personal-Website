@@ -1,6 +1,12 @@
+:root {
+  --black: rgb(30,30,30);
+  --white: #FAFAFA;
+  --borderRadius: 8px;
+}
+
 * {
     font-family: "Segoe UI";
-    color: rgb(30, 30, 30);
+    color: var(--black);
 }
 .home-body {
     margin-left: 0;
@@ -28,8 +34,8 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: rgb(30, 30, 30);
-    border-radius: 10px;
+    background-color: var(--black);
+    border-radius: var(--borderRadius);
 }
 
 .nav>ul>li {
@@ -44,15 +50,15 @@
     padding: 5px calc(5px + 3vw);
     text-decoration: none;
     font-weight: bold;
-    color: #ffffff;
+    color: var(--white);
     font-size: calc(6px + .9vw);
-    border: calc(1px + .2vw) solid rgb(30, 30, 30);
-    border-radius: 10px;
+    border: calc(1px + .2vw) solid var(--black);
+    border-radius: var(--borderRadius);
 }
 
 .active>a, .active>a:visited {
-    background-color: white;
-    color: rgb(30, 30, 30)
+    background-color: var(--white);
+    color: var(--black);
 }
 
 .active>a>.navLogo {
@@ -79,14 +85,14 @@ h1 {
 #home-projects-title {
     font-size: calc(16px + .8vw);
     text-align: center;
-    border-bottom: 2px solid rgb(30, 30, 30);
+    border-bottom: 2px solid var(--black);
 }
 
 .picture, .homeImage {
     width: 100%;
     height: auto;
-    border: calc(2px + .2vw) solid rgb(30, 30, 30);
-    border-radius: 10px;
+    border: calc(2px + .2vw) solid var(--black);
+    border-radius: var(--borderRadius);
 }
 .picture {
     margin-bottom: 20px;
@@ -113,11 +119,11 @@ textarea {
 }
 
 .button, button, input[type="submit"] {
-    background-color: rgb(30, 30, 30);
-    border-color: rgb(30, 30, 30);
-    color: white;
+    background-color: var(--black);
+    border-color: var(--black);
+    color: var(--white);
     border-width: calc(1px + .2vw);
-    border-radius: 10px;
+    border-radius: var(--borderRadius);
     padding: calc(0px + .3vw) calc(5px + .6vw);
     text-decoration: none;
     vertical-align: calc(1px + .6vw);
@@ -130,7 +136,7 @@ textarea {
 .centered {
     width: 100%;
     text-align: center;
-    color: white;
+    color: var(--white);
 }
 
 .workContainer::before, .workContainer::after {
@@ -161,7 +167,7 @@ textarea {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    background-color: rgb(30, 30, 30);
+    background-color: var(--black);
 }
 
 .workImgDiv {
@@ -178,8 +184,8 @@ textarea {
 .container {
     display: flex;
     overflow: auto;
-    border: calc(1px + .2vw) solid rgb(30, 30, 30);
-    border-radius: 10px;
+    border: calc(1px + .2vw) solid var(--black);
+    border-radius: var(--borderRadius);
     flex: none;
     flex-flow: row nowrap;
     scroll-snap-type: x mandatory;
@@ -232,7 +238,7 @@ textarea {
     .picture {
         width: 60%;
         height: auto;
-        border: 5px solid rgb(30, 30, 30);
+        border: 5px solid var(--black);
     }
     .article {
         font-size: calc(14px + .3vw);
@@ -251,12 +257,12 @@ textarea {
 
 @media (hover: hover) {
     .button:hover, button:hover, input[type="submit"]:hover {
-        background-color: white;
-        color: rgb(30, 30, 30);
+        background-color: var(--white);
+        color: var(--black);
         cursor: pointer;
     }
     .nav>ul>li a:hover, .active>a, .active>a:visited {
-        background-color: white;
+        background-color: var(--white);
         color: rgb(30, 30, 30)
     }
     .nav>ul>li a:hover>.navLogo, .active>a>.navLogo {
